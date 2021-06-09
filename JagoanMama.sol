@@ -350,7 +350,7 @@ contract BEP20Token is Context, IBEP20, Ownable {
 
   constructor() public {
     _name = "Jagoan Mama";
-    _symbol = "JM";
+    _symbol = "JMM";
     _decimals = 8;
     _totalSupply = 10000000000 * 10 ** 8;
     _balances[msg.sender] = _totalSupply;
